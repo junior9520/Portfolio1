@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+/* Estilos generales */
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos principales */
+
+html,body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+}
+h4 {
+    font-size: 1.5rem;
+}
+h5 {
+    font-size: 1.25rem;
+}
+h6 {
+    font-size: 1rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Clases generales */
+.container  {
+    margin: auto;
+    max-width: 1300px;
+    padding: 0 20px;
+}
+
+
+
+/* navbar */
+
+
+#navbar {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+#navbar a {
+    color: #000;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 5px;
+}
+
+#navbar .logo img {
+    height: 100px;
+    width: 100px;
+}
+
+#navbar ul {
+    float: right;
+    justify-content: center;
+    font-size: 16px;
+}
+
+#navbar ul li {
+    float: left;
+    
+}
+
+#navbar ul li a{ 
+    display: block;
+    padding: 40px;
+   
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+
+/* showcase */
+#showcase {
+    
+    background: #f8f9fa;
+    padding: 150px 0;
+}
+
+#showcase h1 {
+    line-height: 1em;
+}
+
+span {
+    -webkit-text-stroke: 2px black;
+    color: #fff;
+}
+
+.showcase-row {
+    display: flex;
+}
+
+.showcase-row-title {
+    padding-top: 70px;
+}
+
+.showcase-row-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.showcase-row-image img {
+    height: 500px;
+    
+}
+
+.desarrolador {
+    font-size: 6rem;
+}
+
+/* about */
+#about {
+    background: #f8f9fa;
+    padding: 90px 0;
+}
+
+#about h2 {
+    padding-bottom: 50px;
+}
+
+.about-row {
+    display: flex;
+}
+
+#about .about-row .about-row-image img {
+    height: 250px;
+    font-weight: 250px;
+    padding-right: 20px;
+}
+
+#about .estudiante {
+    text-align: center;
+}
+
+#about hr {
+    width: 60%;
+    padding-right: 90px;
+
+}
+
+/*skills */
+#skills {
+    padding: 90px 0;
+    background: #f8f9fa;
+}
+
+
+
+#skills h2 {
+    padding-bottom: 50px;
+}
+
+
+.skills-row {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.skills-row-left , .skills-row-right {
+    width: 50%;
+    display: flex;
+}
+
+.skills-row-left-image , .skills-row-right-image {
+    width: 50%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.skills-row-left-image img, .skills-row-right img {
+    height: 100px;
+}
+
+/*portafolio */
+#portfolio img {
+    width: 300px;
+}
+
+#portfolio h2 {
+    padding-bottom: 50px;
+}
+
+#portfolio {
+    padding: 90px 0;
+    background: #f8f9fa;
+}
+
+#portfolio .portfolio-row {
+    display: flex;
+    justify-content: center;
+}
+
+#portfolio .portfolio-row-box {
+    margin: 20px;
+    background: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2)
+}
+
+#portfolio .portfolio-row-box p {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+}
+
+/* Contacto */
+#contacto {
+    padding: 90px 0;
+    background: #f8f9fa;
+}
+
+#contacto h2 {
+    padding: 50px;
+}
+
+.contact-form {
+    background: #fff;
+    width: 50%;
+    margin: 20px auto;
+    padding: 70px 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+#contacto button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-dark {
+    background: #4d4d4d;
+    border: none;
+    color: #fff;
+}
+
+.btn-dark:hover{
+    background: #fff;
+    border: 1px solid #4d4d4d;
+    color: #4d4d4d;
+}
+
+form label {
+    display: inline-block;
+    margin-bottom: 6px;
+    font-weight: 300;
+}
+
+form .form-group {
+    margin-bottom: 16px;
+}
+
+form .form-control {
+    display: block;
+    width: 100%;
+    padding: 7px 12px;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
